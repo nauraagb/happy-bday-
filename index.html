@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Kevinnnnn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+<body>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hal1">
+            <img class="fade-left" src="images/hbd (9).png" alt="foto dia">
+            <div class="ucapan1">
+            <h1 class = "fade-right">Happy Birthday, Kevin</h1>
+            <p>Thank you for everything. I love it whenever you smile. I 
+                love seeing you laugh. I love seeing you be so happy. I also love it when you ramble
+                 about your favorite video games. I also love to be by your side whenever you're feeling down.
+                I love you, Kevin Neisa Aulia Iskandar.</p>
+            <a class="sertif" href="https://drive.google.com/file/d/1v-8vv6DXUcQEO1GzXHv8-UXyLUw0Y62D/view?usp=drive_link">Click here btich</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- AFIRMASI -->
+    <div class="affirmations">
+        
+        <div class="cards">
+            <h1>
+            Here are a few things you need to remember
+        </h1>
+        <div class="card">
+            <p>Youuuuuu deserve so much love</p>
+        </div>
+        <div class="card">
+            <p>You're so cool that you can do anything you want</p>
+        </div>
+        <div class="card">
+            <p>You may not notice this, but your presence gives me warmth</p>
+        </div>
+        <div class="card">
+            <p>You don't always have to be perfect</p>
+        </div>
+        <div class="card">
+            <p>You're trying your best, sayang. You're improving day by day</p>
+        </div>
+        <div class="card">
+            <p>I'm so proud of you. Always</p>
+        </div>
+        </div>
+        <img class="fade-right" src="images/hbd (7).png">
+    </div>
+
+    <!-- PENUTUP -->
+   <div class="lagu">
+    <h2>a little something for you. i hope you like it sayang</h2>
+    <a class="klik" href="https://drive.google.com/file/d/1Txp2Eh2cCfYZga3McHVta9sOlDJodDnQ/view?usp=drive_link">
+       <img class="fade-show" src="images/hbd (8).png">
+    </a>
+    <h2>tap the envelope!</h2>
+
+</div>
+<footer>
+        i love you
+    </footer>
+   
+
+    <script>
+const animated = document.querySelectorAll('.fade-left, .fade-right');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('fade-show');
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+animated.forEach(el => observer.observe(el));
+</script>
+
+
+</body>
+</html>
